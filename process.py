@@ -14,7 +14,6 @@ def process(dir, file):
     file_name_only = file.split(".")[0]
     json_path = os.path.join("./output", f"{file_name_only}.json")
     if not os.path.exists(json_path):
-        print("I RAN, LOSE MONEY BITCH")
         output_file_path = f"./output/{file_name_only}.zip"
         extract_pdf(dir, file, output_file_path)
 
