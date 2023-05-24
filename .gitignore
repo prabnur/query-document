@@ -1,0 +1,11 @@
+# Data
+**/external/**/*
+**/output/**/*
+**/__pycache__/*
+.vscode/**
+
+# Secrets
+**/private.key
+**/pdfservices-api-credentials.json
+
+**/.DS_Store
