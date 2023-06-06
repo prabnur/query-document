@@ -10,7 +10,8 @@ Ask questions about it!
 ## Adobe API key
 
 1. [Follow instrucitons here](https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/quickstarts/python/)
-2. Move your `pdfservices-api-credentials.json` and `private.key` to the folder `ProcessPDF`
+2. Get your personal example package which will have your authentication details.
+3. Move your `pdfservices-api-credentials.json` and `private.key` to the folder `ProcessPDF`
 
 ## Open AI API Key
 
