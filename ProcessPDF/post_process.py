@@ -82,12 +82,9 @@ def table_data_to_csv(table_data):
         [row[col_idx] for col_idx in sorted(row)]
         for row in [data_dict[row_idx] for row_idx in sorted(data_dict)]
     ]
-
     # Convert the data to a CSV format
-    # csv_data = "\n".join([",".join(row) for row in sorted_data])
-    # return [",".join(row) for row in sorted_data]
-
-    return sorted_data
+    csv_data = "\n".join([",".join(row) for row in sorted_data])
+    return csv_data
 
 
 def join_spans(data):

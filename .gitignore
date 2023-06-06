@@ -7,5 +7,6 @@
 # Secrets
 **/private.key
 **/pdfservices-api-credentials.json
+.env
 
 **/.DS_Store
