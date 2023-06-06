@@ -1,0 +1,5 @@
+langchain==0.0.168
+python-dotenv==1.0.0
+streamlit==1.23.1
+faiss-cpu==1.7.4
+pdfservices-sdk==2.2.0
