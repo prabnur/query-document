@@ -12,7 +12,7 @@ import streamlit as st
 # import json
 
 
-def ask(file, user_question):
+def ask(dir, file, user_question):
     data = process(dir, file)
     # print(json.dumps(data, indent=2))
 
@@ -62,5 +62,5 @@ st.header("Ask your PDF 💬")
 dir = st.text_input("Enter the directory for your PDFs:")
 file_path = st.text_input("Enter the filename to your PDF:")
 user_question = st.text_input("Ask a question about your PDF:")
-if user_question and file_path:
-    ask(file_path, user_question)
+if dir and user_question and file_path:
+    ask(dir, file_path, user_question)
